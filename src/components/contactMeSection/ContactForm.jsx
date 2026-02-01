@@ -24,10 +24,15 @@ const ContactForm = () => {
     const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_uhnkbh8', 'template_1trxjhd', form.current, {
-        publicKey: 'ye0SYZPr7VpzIt8if',
-      })
+    emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  form.current,
+  {
+    publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+  }
+)
+
       .then(
         () => {
           setName('');
