@@ -1,6 +1,6 @@
 import SkillsText from './SkillsText'
 import AllSkills from './AllSkills'
-import AllSkilllsSM from './AllSkilllsSM.JSX';
+import AllSkilllsSM from './AllSkilllsSM';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants'
 
