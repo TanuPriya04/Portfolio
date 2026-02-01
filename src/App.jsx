@@ -4,7 +4,6 @@ import HeroGradient from './components/heroSection/HeroGradient';
 import SubHeroSection from './components/heroSection/SubHeroSection';
 import AboutMeMain from './components/aboutMeSection/AboutMeMain';
 import SkillsMain from './components/skillsSection/SkillsMain';
-import HelperSection from './components/HelperSection';
 import SubSkills from './components/skillsSection/SubSkills';
 import ExperienceMain from './components/experienceSection/ExperienceMain';
 import ProjectsMain from './components/projectsSection/ProjectsMain';
